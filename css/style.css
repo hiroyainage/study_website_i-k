@@ -14,6 +14,7 @@ header p{
 	line-height: 1.2;
 }
 
+/* タイピング機能 */
 #typing {
   display: block ;
   top:20px;
@@ -50,7 +51,8 @@ header p{
       to {opacity: 1;}
   }
 
-
+/* アンカーリンクのスクロール滑らかに */
+html { scroll-behavior: smooth;}
   
 
 body {
