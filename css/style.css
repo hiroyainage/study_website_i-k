@@ -121,7 +121,6 @@ h2 {
 .social-list {
 list-style: none;
 display: flex;
-margin-top: -12px;
 }
 
 .social-link{
@@ -130,7 +129,7 @@ height: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 0 10px;
+margin: 0 10px 0 0;
 box-shadow: 10px 10px 15px -5px rgba(54, 54, 54, 0.4);
 border-radius: 50%;
 cursor: pointer;
