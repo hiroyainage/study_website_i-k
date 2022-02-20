@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+h1{
+  font-family: Inter;
+  font-weight: 700;
+	font-size: 24px;
+	line-height: 1.0;
+}
+header p{
+  font-family: Inter;
+  font-weight: 700;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+#typing {
+  display: block ;
+  top:20px;
+  left:10px;
+  width: 0ch;
+  color: rgb(0, 0, 0);
+  float: left;
+  font-family: Inter;
+  font-weight: 700;
+	font-size: 16px;
+	line-height: 1.2;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(28) 1s infinite alternate;
+  }
+  #typing span{
+  font-size: 12px;
+  }
+  #crow {
+  top: 6px;
+  float: left;
+  color: rgba(113, 113, 113, 0.445);
+  font-family: consolas;
+  font-weight: lighter;
+  font-size: 16px;
+  animation: crow 2s linear s infinite;
+  }
+  @keyframes typing {
+      from {width: 0ch;}
+      to {width: 13ch;}
+  }
+  @keyframes crow {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+
+
+  
+
+body {
+	font-family: Inter;
+  font-weight: 700;
+	font-size: 24px;
+	line-height: 1.25;
+	
+	background-color: #ffffff;
+  background-image: url(grid.png);
+  background-size: 25px 25px;
+	color: #111118;
+}
+
+header {
+  position: fixed;
+  top: 48px;
+  left: 48px;
+}
+
+nav {
+  position:  fixed;
+  top: 48px;
+ 	right: 48px;
+}
+
+nav a {
+  color: #adadad;
+  text-decoration: none;
+  margin: 0 0 0 24px;
+  font-size :16px;;
+}
+
+nav a:hover {
+  color: #111118;
+}
+
+section.flag {
+  width: 100vw;
+  max-height: 100vh;
+  height: 40vw;
+}
+
+section.sec{
+  font-size: 17px;
+  display: flex;
+  margin-left: 3.5em;
+
+}
+h2 {
+  font-size: 18px;
+  left: 48px;
+}
+/* footer */
+.footer{ 
+  font-size: 17px;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 3.5em;
+  padding: 2em 0 2.5em 0;
+  display: flex;
+  margin-bottom: 1em;
+   /* justify-content: center;  */
+}
+
+.footer a{ color: #333;}
+
+.social-list {
+list-style: none;
+display: flex;
+margin-top: -12px;
+}
+
+.social-link{
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 10px;
+box-shadow: 10px 10px 15px -5px rgba(54, 54, 54, 0.4);
+border-radius: 50%;
+cursor: pointer;
+}
+.social-link:hover {
+box-shadow: 10px 10px 15px -5px rgba(131, 137, 150, .4), inset 15px 15px 15px -5px rgba(131, 137, 150, .2);}
+
+img{
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+  cursor: pointer;
+  }
